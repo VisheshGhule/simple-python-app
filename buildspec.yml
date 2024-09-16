@@ -1,5 +1,4 @@
 version: 0.2
-
 env:
   parameter-store:
     DOCKER_REGISTRY_USERNAME: /docker-credentials/username
@@ -28,4 +27,3 @@ artifacts:
   files:
     - '**/*'
   base-directory: .
-
